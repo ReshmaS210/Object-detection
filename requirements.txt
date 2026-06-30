@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+opencv-python
+albumentations
+Pillow
+pycocotools
+matplotlib
+timm
+pandas
