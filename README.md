@@ -75,7 +75,7 @@ python src/evaluate.py --model_path models/trained_model.h5 --test_dir data/test
 
 ## Technologies Used
 
-- **Deep Learning Framework**: TensorFlow/PyTorch (update as per your implementation)
+- **Deep Learning Framework**: TensorFlow/PyTorch 
 - **Computer Vision**: OpenCV
 - **Data Processing**: NumPy, Pandas
 - **Visualization**: Matplotlib, Seaborn
@@ -83,32 +83,32 @@ python src/evaluate.py --model_path models/trained_model.h5 --test_dir data/test
 
 ## Model Architecture
 
-The system uses [specify your architecture - e.g., YOLO, Faster R-CNN, SSD, etc.] for object detection, providing a good balance between accuracy and inference speed.
+* SimCLR is used for self-supervised pre-training to learn robust visual feature representations from the dataset.
+* Swin Transformer acts as the backbone network, extracting hierarchical and contextual features from the input images.
+* Mask R-CNN utilizes the extracted features to perform object detection and instance segmentation.
 
 ## Performance Metrics
 
-Key metrics tracked during training and evaluation:
-- **Precision**: Accuracy of positive predictions
-- **Recall**: Ability to find all relevant objects
+Key metric tracked during training and evaluation:
+
 - **mAP (mean Average Precision)**: Overall model performance
-- **Inference Time**: Speed of predictions
+
 
 ## Results
 
-[Add your results here - e.g., accuracy metrics, sample detections, comparisons]
+* Successfully detects and localizes objects in input images.
+* Generates bounding boxes with corresponding class labels.
+* Demonstrates effective object detection using a deep learning model.
+* Achieved satisfactory detection performance on the test dataset.
+* Model performance was evaluated using Mean Average Precision (mAP).
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
 ## License
 
 This project is open source and available under the MIT License.
 
-## Contact
 
-For questions or inquiries, please reach out to [ReshmaS210](https://github.com/ReshmaS210).
 
----
 
-**Note**: This README provides a template structure. Please update sections with your specific implementation details, model architecture, and results.
+
